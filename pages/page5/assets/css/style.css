@@ -15,12 +15,7 @@ body {
    background-image: url('https://i.pinimg.com/1200x/b4/19/f0/b419f00930dd552e692f91b506e7549b.jpg');
 }
 
-.overlay {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at center, rgba(128, 0, 255, 0.3), transparent 60%);
-  pointer-events: none;
-}
+
 
 .content {
   position: relative;
