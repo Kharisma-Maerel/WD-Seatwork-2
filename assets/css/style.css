@@ -6,71 +6,85 @@
   text-decoration: none;
 }
 
-/* Page Layout */
+/* Body Background */
 .body {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
-}
-
-.contents {
-  flex: 1;
-}
-
-/* Hero Section */
-.hero {
-  width: 100%;
+  background-image: url('https://i.pinimg.com/1200x/f8/ef/53/f8ef53724d09892c6be63ead89240fa5.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
+  justify-content: space-between;
 }
 
-/* HEADER 2 STYLES */
+/* Header/Nav */
 .header2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 30px;
-  background-color: rgb(214, 208, 208);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.6); /* translucent navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .header2 .logo {
-  max-width: 13rem;
+  max-width: 80px;
 }
 
 .header2 .center-box {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .header2 .center-box a,
 .header2 .rightbox a {
-  padding: 8px 15px;
-  background-color: white;
-  border: 1px solid #000;
+  padding: 10px 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ccc;
   border-radius: 20px;
-  color: #000;
+  color: white;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   transition: all 0.3s ease;
 }
 
 .header2 .center-box a:hover,
 .header2 .rightbox a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
-/* FOOTER 2 STYLES */
+/* Hero Section */
+.hero {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #dcdcdc;
+}
+
+/* Footer */
 .sitefooter2 {
-  background-color: rgb(187, 181, 181);
-  color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
   text-align: center;
   padding: 20px;
+  font-size: 14px;
 }
