@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-image: url('https://i.pinimg.com/736x/96/86/cb/9686cb08615e0f33e5e45b3206bb582d.jpg');
-
+  background: linear-gradient(to bottom right, #f4f4ff, #eaeaff);
+  color: #333;
 }
 
 /* Hero Section Layout */
