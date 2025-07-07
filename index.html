@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WD Seatwork 1</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+    }
+
+    .body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .contents {
+      flex: 1;
+    }
+
+    .hero {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    /* HEADER 2 */
+    .header2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background-color: rgb(214, 208, 208);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .header2 .logo {
+      max-width: 13rem;
+    }
+
+    .header2 .center-box {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .header2 .center-box a,
+    .header2 .rightbox a {
+      padding: 8px 15px;
+      background-color: white;
+      border: 1px solid #000;
+      border-radius: 20px;
+      color: #000;
+      font-weight: 500;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    .header2 .center-box a:hover,
+    .header2 .rightbox a:hover {
+      background-color: black;
+      color: white;
+    }
+
+    /* FOOTER 2 */
+    .sitefooter2 {
+      background-color: rgb(187, 181, 181);
+      color: black;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body class="body">
+
+  <!-- HEADER 2 -->
+  <div class="header2">
+    <div class="leftbox">
+      <img src="assets/img/rei.png" alt="" class="logo" />
+    </div>
+
+    <div class="center-box">
+      <a href="#">Natsume</a>
+      <a href="#">Rei</a>
+      <a href="#">Kaori</a>
+      <a href="#">Kou</a>
+      <a href="#">Khloe & Nico</a>
+    </div>
+
+    <div class="rightbox">
+      <a href="#">Home</a>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="contents">
+    <section class="hero">
+      <h3>Matias, Kharisma Maerel</h3>
+      <h4>TC07</h4>
+    </section>
+  </div>
+
+  <!-- FOOTER 2 -->
+  <div class="contents">
+    <footer class="sitefooter2">
+      <p>All rights reserved 2025</p>
+    </footer>
+  </div>
+
+</body>
+</html>

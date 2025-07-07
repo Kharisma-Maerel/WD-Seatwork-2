@@ -1,0 +1,76 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Page Layout */
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contents {
+  flex: 1;
+}
+
+/* Hero Section */
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* HEADER 2 STYLES */
+.header2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: rgb(214, 208, 208);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header2 .logo {
+  max-width: 13rem;
+}
+
+.header2 .center-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header2 .center-box a,
+.header2 .rightbox a {
+  padding: 8px 15px;
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 20px;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.header2 .center-box a:hover,
+.header2 .rightbox a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* FOOTER 2 STYLES */
+.sitefooter2 {
+  background-color: rgb(187, 181, 181);
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
