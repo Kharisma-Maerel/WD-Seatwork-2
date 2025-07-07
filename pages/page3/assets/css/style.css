@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-color: #111;
+  gap: 40px;
+}
+
+.hero-left {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.hero-left h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #c6ff00;
+}
+
+.hero-left p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.btn.primary {
+  background-color: #c6ff00;
+  color: #111;
+}
+
+.btn.secondary {
+  border: 2px solid #c6ff00;
+  color: #c6ff00;
+}
+
+.btn.primary:hover {
+  background-color: #b2e600;
+}
+
+.btn.secondary:hover {
+  background-color: #c6ff00;
+  color: #111;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.stats h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: #c6ff00;
+}
+
+.stats p {
+  margin: 5px 0 0;
+  color: #aaa;
+}
+
+.hero-right {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feature h3 {
+  color: #c6ff00;
+  margin-bottom: 5px;
+}
+
+.feature p {
+  color: #ccc;
+  line-height: 1.4;
+}
