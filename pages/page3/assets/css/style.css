@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #111;
+  background-color: #4a4949;
   color: #eee;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .highlight {
-  color: #c6ff00;
+  color: #526313;
 }
 
 .hero-left p {
@@ -49,21 +49,21 @@ body {
 }
 
 .btn.primary {
-  background-color: #c6ff00;
+  background-color: #526313;
   color: #111;
 }
 
 .btn.secondary {
-  border: 2px solid #c6ff00;
-  color: #c6ff00;
+  border: 2px solid #526313;
+  color: #526313;
 }
 
 .btn.primary:hover {
-  background-color: #b2e600;
+  background-color: #526313;
 }
 
 .btn.secondary:hover {
-  background-color: #c6ff00;
+  background-color: #526313;
   color: #111;
 }
 
@@ -76,7 +76,7 @@ body {
 .stats h2 {
   font-size: 2rem;
   margin: 0;
-  color: #c6ff00;
+  color: #526313;
 }
 
 .stats p {
@@ -102,7 +102,7 @@ body {
 }
 
 .feature h3 {
-  color: #c6ff00;
+  color: #526313;
   margin-bottom: 5px;
 }
 

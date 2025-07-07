@@ -34,7 +34,7 @@ body {
 }
 
 .hero-left h1 span {
-  color: #7c68b1;
+  color: #68abb1;
 }
 
 .hero-left p {
@@ -60,23 +60,23 @@ body {
 }
 
 .primary {
-  background-color: #7c68b1;
+  background-color: #68abb1;
   color: white;
   border: none;
 }
 
 .primary:hover {
-  background-color: #5d4d92;
+  background-color: #659a9f;
 }
 
 .secondary {
-  border: 2px solid #7c68b1;
-  color: #7c68b1;
+  border: 2px solid #68abb1;
+  color: #68abb1;
   background-color: transparent;
 }
 
 .secondary:hover {
-  background-color: #7c68b1;
+  background-color: #68abb1;
   color: white;
 }
 
@@ -88,7 +88,7 @@ body {
 
 .hero-stats div h2 {
   font-size: 2rem;
-  color: #7c68b1;
+  color: #68abb1;
 }
 
 .hero-stats div p {
@@ -119,8 +119,8 @@ body {
 .badge {
   position: absolute;
   background-color: white;
-  color: #7c68b1;
-  border: 1px solid #7c68b1;
+  color: #68abb1;
+  border: 1px solid #68abb1;
   border-radius: 30px;
   padding: 8px 16px;
   font-size: 0.9rem;
@@ -164,5 +164,5 @@ body {
 .header2 .center-box a:hover,
 .header2 .rightbox a:hover {
   background-color: white;
-  color: #7c68b1;
+  color: #68abb1;
 }
