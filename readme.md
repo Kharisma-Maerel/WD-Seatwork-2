@@ -59,7 +59,6 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 -the project is about having multiple pages website, the purpose is to help students practice and learn how to link one page of the site to the other. In making the project, html, css, and usage of images, and links were used in making and customizing the project.
 
 
